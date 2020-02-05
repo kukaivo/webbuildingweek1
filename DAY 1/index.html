@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+    <title> Home Page </title>
+    <meta charset="utf-8">
+    <!-- link to external stylesheet LOWEST PRIORITY -->
+    <link rel="Stylesheet" href="css/myStyle.css">
+</head>
+
+<body>
+
+    <!-- MENU item -->
+
+    <ul id="menu">
+        <a href="index.html">
+            <li>Home</li>
+        </a>
+        <a href="about.html">
+            <li>About</li>
+        </a>
+        <a href="students.html">
+            <li>Students</li>
+        </a>
+        <a href="contact.html">
+            <li>Contact</li>
+        </a>
+    </ul>
+
+    <div class="container">
+        <h1>Welcome to DPP</h1>
+        <h3><u>HTML5</u></h3>
+        <p><b>HTML5</b> is a software solution stack that defines the properties and behaviors of web page content by implementing a markup based pattern to it. HTML5 was the fifth and last major version of HTML that is a World Wide Web Consortium (W3C) recommendation.</p>
+
+        <!-- hyperlink to external URL -->
+        <p><a href="https://en.wikipedia.org/wiki/HTML5">Read more...</a></p>
+
+        <!--inline Styling CSS HIGHEST PRIORITY-->
+        <h1 style="border: 12px dotted tomato;">Hello World!</h1>
+
+        <!-- IMG src to external image -->
+        <img src="https://images.unsplash.com/photo-1578241561880-0a1d5db3cb8a?ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60" />
+
+        <!-- HR creates a line separator covering half the screen from the centre. It also does not need a closing tag -->
+        <hr width=50%>
+
+        <!-- IMG src to local image -->
+        <img src="images/snow.jpg" alt="Snowy scene" />
+
+        <!-- The abbr tag is used when showing the full name for an abbreviation using the TITLE attribute -->
+        <p>The <abbr title="World Health Organisation"> WHO </abbr> was founded in 1948</p>
+
+        <hr width=50%>
+
+        <!-- Unordered Lists -->
+        <h4>The items ordered:</h4>
+        <!-- change the UL attribute to square, circle etc -->
+        <ul type="square">
+            <li>markers</li>
+            <li>books</li>
+            <ul>
+                <li>HTML</li>
+                <li>Javascript</li>
+                <li>C# Programming</li>
+            </ul>
+            <li>Tea</li>
+            <li>Coffee</li>
+            <li>Sugar</li>
+            <li>milk</li>
+        </ul>
+
+        <!-- Ordered List -->
+        <h4>DPP Programme</h4>
+        <ol type="i">
+            <li>Week 1: HTML / CSS </li>
+            <li>Week 2: Javascript </li>
+            <li>Week 3: C# Programming </li>
+            <li>Week 4: ASP.net</li>
+            <li>Week 5: Portfolio</li>
+            <li>Week 6: Open Lab</li>
+        </ol>
+
+        <!-- Description Lists -->
+        <dl>
+            <dt>ASCII</dt>
+            <dd>American Standard Code for Information Interchange - a character set</dd>
+            <dt>HTML</dt>
+            <dd>HyperText Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>Cascading Style Sheet</dd>
+            <dt>SQL</dt>
+            <dd>Structured Query Language</dd>
+            <dt>MVC</dt>
+            <dd>Model View Controller</dd>
+        </dl>
+
+        <!-- hyperlink to internal section -->
+    </div>
+    <footer>
+    <p style="text-align: center">&copy; Just IT Training and Apprenticeship </p></footer>
+</body>
+
+</HTML>

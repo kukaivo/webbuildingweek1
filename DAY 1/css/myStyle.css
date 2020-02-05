@@ -1,0 +1,119 @@
+/* Taken from Google Fonts > IMPORT */
+@import url('https://fonts.googleapis.com/css?family=Monda|Lobster|Montserrat&display=swap');
+
+.myForm{
+    padding: 20px;
+}
+
+.myForm label{
+    display: block;
+    }
+
+.myForm input[type="text"], .myForm input[type="tel"], .myForm input[type="number"], .myForm input[type="email"], .myForm textarea{
+padding: 5px;
+    width: 50%;
+}
+
+.btn1{
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+        
+}
+
+.btn1:hover{
+    color: aliceblue;
+    background-color: rebeccapurple;
+}
+
+#formdiv {
+    width: 75%;
+    float: left;
+}
+
+#addressDiv{
+    width: 25%;
+    float: left;
+    
+    /* Aligns with the form fields */
+    margin-top: 10px;
+    }
+
+/* Prevents the DIV from overlapping */
+.clear{
+    clear: both
+}
+
+th{
+    background-color: cornflowerblue;
+}
+td {
+    text-align: center;
+    background-color:antiquewhite
+}
+
+.test {
+    font-size: 2em;
+}
+
+#center1 {
+    align-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+body {
+    margin: 0;
+    background-color: orange;
+    color: black;
+    font-family: monda, sans-serif;
+}
+
+
+h1 {
+    color: blueviolet;
+    border-bottom: 2px solid red;
+    border-right: 2px solid red;
+    padding: 30px 10px;
+}
+
+
+#menu {
+    list-style-type: none;
+    text-align: right;
+    margin: 0px;
+    padding: 20px;
+    overflow: hidden;
+    background-color: bisque;
+}
+
+#menu li {
+    display: inline;
+    padding: 20px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+a li:hover {
+    color: black;
+    background-color: aqua;
+}
+
+a li:active {
+    color: red;
+}
+
+footer {
+    background-color: bisque;
+    color: black;
+    padding: 1px;
+
+}

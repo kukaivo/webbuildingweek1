@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+    <title> Home Page </title>
+    <meta charset="utf-8">
+    <!-- link to external stylesheet LOWEST PRIORITY -->
+    <link rel="Stylesheet" href="css/myStyle.css">
+
+    <style>
+        table {
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- MENU item -->
+
+    <ul id="menu">
+        <a href="index.html">
+            <li>Home</li>
+        </a>
+        <a href="about.html">
+            <li>About</li>
+        </a>
+        <a href="students.html">
+            <li>Students</li>
+        </a>
+        <a href="contact.html">
+            <li>Contact</li>
+        </a>
+    </ul>
+
+    <div class="container">
+        <h1>Students</h1>
+        <h3><u>HTML / CSS Course</u></h3>
+        <p>There are a number of students on Just IT's HTML and CSS course:</p>
+
+        <!-- Font sizing -->
+        <!-- em is twice the size of the parent element -->
+
+        <p style=font-size:20px>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <b class="test" style="font-size: 2rem">Lorem Ipsum</b> has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing <b class="test">Lorem Ipsum</b> passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+        <!-- Table creation -->
+        <table border=4>
+            <tr>
+                <th rowspan="2">Student ID</th>
+                <th rowspan="2">Student Name</th>
+                <th rowspan="2">Gender</th>
+                <th rowspan="2">Skills</th>
+                <th colspan="3">CONTACT</th>
+            </tr>
+            <tr>
+                <th>Phone</th>
+                <th>Mobile Phone</th>
+                <th>Email</th>
+
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Ian</td>
+                <td>Male</td>
+                <td>HTML. CSS, SQL</td>
+                <td>1111111</td>
+                <td>1111111</td>
+                <td>ian@hotmail.com</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Santiago</td>
+                <td>Male</td>
+                <td>C#, SQL</td>
+                <td>0207 555 2341</td>
+                <td>07922 333444</td>
+                <td>santiago@mail.com</td>
+            </tr>
+            
+                        <tr>
+                <td>3</td>
+                <td>Student 3</td>
+                <td>Male</td>
+                <td>HTML. CSS, SQL</td>
+                <td>1111111</td>
+                <td>1111111</td>
+                <td>student3@hotmail.com</td>
+            </tr>
+            
+                        <tr>
+                <td>4</td>
+                <td>Student 4</td>
+                <td>Male</td>
+                <td>HTML. CSS, SQL</td>
+                <td>1111111</td>
+                <td>1111111</td>
+                <td>student4@hotmail.com</td>
+            </tr>
+        </table>
+
+        <!-- hyperlink to external URL -->
+        <p><a href="https://en.wikipedia.org/wiki/HTML5">Read more...</a></p>
+
+        <!--inline Styling CSS HIGHEST PRIORITY-->
+        <h1 style="border: 12px dotted tomato;">Ian</h1>
+
+
+        <hr width=50%>
+
+
+
+    </div>
+    <footer>
+        <p style="text-align: center">&copy; Just IT Training and Apprenticeship </p>
+    </footer>
+</body>
+
+</HTML>

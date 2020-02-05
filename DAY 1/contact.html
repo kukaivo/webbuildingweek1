@@ -1,0 +1,156 @@
+<!DOCTYPE HTML>
+<HTML>
+
+<head>
+    <title> Contact Us </title>
+    <meta charset="utf-8">
+    <!-- link to external stylesheet LOWEST PRIORITY -->
+    <link rel="Stylesheet" href="css/myStyle.css">
+    
+    <!-- META Data make the site easier to find, enable responsivity -->
+    <meta name="description" content="DPP - Development Professional Program covering front end and back end">
+    <meta name="keywords" content="HTML, CSS, Javascript, C# Object oriented programming, MVC, SQL Server">
+    <meta name="Viewport" content="width=device-width, inital-scale=1.0">
+
+   
+    <style>
+        
+        table {
+            width: 100%;
+        }
+        
+        address {
+            display: block;
+            color: greenyellow;
+            border: 2px solid red;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- MENU item -->
+
+    <ul id="menu">
+        <a href="index.html">
+            <li>Home</li>
+        </a>
+        <a href="about.html">
+            <li>About</li>
+        </a>
+        <a href="students.html">
+            <li>Students</li>
+        </a>
+        <a href="contact.html">
+            <li>Contact</li>
+        </a>
+    </ul>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+
+
+        <div id="formdiv">
+           <!-- ENCTYPE enables the email to be formatted properly -->
+            <form action="mailto:ianpremadasa@gmail.com" method="post" enctype="text/plain" class="myForm">
+                <label>ID:</label>
+                <!-- Autofocus places cursor in the form field -->
+                <input type="number" name="ID" autofocus>
+                <br />
+                <br />
+
+                <label>Name:</label>
+                <input type="text" name="name">
+                <br />
+                <br />
+
+                <!-- The NAME attribute enables only ONE radio option can be chosen. -->
+                <label>Gender:</label>
+                <br />
+                Female:<input type="radio" name="gender" value="female">
+                Male:<input type="radio" name="gender" value="Male">
+                Other:<input type="radio" name="gender" value="other">
+
+                <br />
+                <br />
+
+
+                <br />
+                <label><strong>CONTACT METHOD:</strong>
+                    <br />
+                    <br />
+                </label>
+                <label>* Mobile</label>
+                <input type="tel" name="Mobile" required>
+
+                <br />
+                <br />
+                <label>Phone</label>
+                <input type="tel" name="Phone">
+
+                <br />
+                <br />
+                <label>* Email</label>
+                <input type="email" name="email" required>
+
+                <br />
+                <br />
+                <label>Message</label>
+                <textarea name="message"></textarea>
+
+                <br />
+                <br />
+                <input type="submit" value="SUBMIT" class="btn1">
+                
+                                   <br/>
+           <br/>
+        
+
+
+            </form>
+
+        </div>
+
+        <div id="addressDiv">
+            <address>
+                Just IT Training
+                <br/>
+                2nd Floor
+                <br/>
+                St Claire
+                <br/>
+                London
+                <br/>
+                EC3N 1DD
+                <br/>
+                <br/>
+                
+                <!-- Create a link to an app to handle emails -->
+                Email: <a href="mailto: ianpremadasa@ gmail.com"> info@justit.co.uk</a>
+                <br/>
+                <br/>
+                
+                <!-- Create a link to an app to handle phone calls -->
+                Phone: <a href="tel:02082525250">02082525250</a>
+                
+            </address>
+        </div>
+        
+        <div>
+           
+           <br/>
+
+           
+        </div>
+            <iframe  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9932.214543895961!2d-0.08390575626625246!3d51.51223197417342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876034b9df50119%3A0xe2c2dd90096a0427!2sJust%20IT%20Recruitment!5e0!3m2!1sen!2suk!4v1579005438928!5m2!1sen!2suk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+
+    </div>
+    
+    <div class="clear"></div>
+    <footer>
+        <p style="text-align: center">&copy; Just IT Training and Apprenticeship </p>
+    </footer>
+</body>
+
+</HTML>
